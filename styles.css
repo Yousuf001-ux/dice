@@ -108,3 +108,18 @@ button {
 button:hover {
     background-color: rgb(233, 228, 228);
 }
+
+@media(max-width: 512px) {
+    .container {
+        padding: 1rem;
+    }
+
+    .dice-container {
+        flex-direction: column;
+        row-gap: 2rem;
+    }
+
+    button {
+        width: 100%;
+    }
+}
