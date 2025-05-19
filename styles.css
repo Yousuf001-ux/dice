@@ -5,3 +5,106 @@
     font-family: "inter", sans-serif;
     letter-spacing: -0.031rem;
 }
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: #0e191f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 5rem;
+}
+
+.dice-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 3rem;
+}
+
+.dice-one {
+    width: 265px;
+    height: 250px;
+    background-color:  #75ca06;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.first-set, .second-set, .third-set {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dot1, .dot2, .dot3, .dot5, .dot6, .dot7 {
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: white;
+}
+
+.dot4-visible {
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: white;
+}
+
+.dot4-hidden, .dot1-hidden, .dot2-hidden, .dot3-hidden, .dot5-hidden, .dot6-hidden, .dot7-hidden {
+    visibility: hidden;
+}
+
+.dice-two {
+    width: 265px;
+    height: 250px;
+    background-color: #75ca06;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.dot-one, .dot-two, .dot-three, .dot-five, .dot-six, .dot-seven {
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: white;
+}
+
+.dot-four-visible {
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: white;
+}
+
+.dot-four-hidden, .dot-one-hidden, .dot-two-hidden, .dot-three-hidden, .dot-five-hidden, .dot-six-hidden, .dot-seven-hidden {
+    display: none;
+}
+
+
+button {
+    width: 20%;
+    border: none;
+    outline: none;
+    border-radius: 0.5rem;
+    padding: 1.2rem;
+    font-weight: 600;
+    font-size: 1rem;
+    background-color: white;
+    color: #0e191f;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(233, 228, 228);
+}
